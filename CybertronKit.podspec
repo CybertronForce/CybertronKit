@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Cyb3rtr0n-s/CybertronKit'
+  s.homepage         = 'https://github.com/CybertronForce/CybertronKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wayne' => 'waynesun1990@gmail.com' }
-  s.source           = { :git => 'https://github.com/Cyb3rtr0n-s/CybertronKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/CybertronForce/CybertronKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'CybertronKit/Classes/**/*'
