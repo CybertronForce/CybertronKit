@@ -18,10 +18,32 @@
   "platforms": {
     "ios": "9.0"
   },
+  "default_subspecs": "All",
   "subspecs": [
     {
+      "name": "All",
+      "dependencies": {
+        "CybertronKit/Banner": [
+
+        ]
+      }
+    },
+    {
+      "name": "Core",
+      "dependencies": {
+        "SnapKit": [
+
+        ]
+      }
+    },
+    {
       "name": "Banner",
-      "source_files": "CybertronKit/Classes/Banner/**/*"
+      "source_files": "CybertronKit/Classes/Banner/**/*",
+      "dependencies": {
+        "CybertronKit/Core": [
+
+        ]
+      }
     }
   ]
 }

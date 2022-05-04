@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SnapKit
 
 class BannerCell: UICollectionViewCell {
     
@@ -15,6 +16,7 @@ class BannerCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        configSubviews()
     }
     
     required init?(coder: NSCoder) {
@@ -30,10 +32,16 @@ private extension BannerCell {
                                            blue: CGFloat.random(in: 0...255),
                                            alpha: 1)
         contentView.addSubview(contentImg)
+        contentImg.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
         
         titleLab.font = .boldSystemFont(ofSize: 20)
         titleLab.textColor = .green
         titleLab.textAlignment = .center
         contentView.addSubview(titleLab)
+        titleLab.snp.makeConstraints { make in
+            make.center.equalToSuperview()
+        }
     }
 }
