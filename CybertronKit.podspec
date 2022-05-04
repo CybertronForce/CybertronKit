@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CybertronKit'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of CybertronKit.'
 
 # This description is used to generate tags and improve search results.
@@ -27,11 +27,19 @@ TODO: Add long description of the pod here.
   s.author           = { 'wayne' => 'waynesun1990@gmail.com' }
   s.source           = { :git => 'https://github.com/CybertronForce/CybertronKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
+  s.default_subspec = 'All'
+  
+  s.subspec 'All' do |all|
+    all.dependency 'CybertronKit/Banner'
+  end
 
-  s.source_files = 'CybertronKit/Classes/**/*'
+  s.subspec 'Core' do |core|
+    core.dependency 'SnapKit'
+  end
 
   s.subspec 'Banner' do |banner|
     banner.source_files = 'CybertronKit/Classes/Banner/**/*'
+    banner.dependency 'CybertronKit/Core'
   end
   
   # s.resource_bundles = {

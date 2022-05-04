@@ -22,7 +22,7 @@ pod 'CybertronKit'
 
 ## Author
 
-wayne, wayne_sun@jiliguala.com
+waynesun1990@gmail.com
 
 ## License
 
