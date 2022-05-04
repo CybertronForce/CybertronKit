@@ -1,0 +1,28 @@
+{
+  "name": "CybertronKit",
+  "version": "0.1.0",
+  "summary": "A short description of CybertronKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Cyb3rtr0n-s/CybertronKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wayne": "waynesun1990@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Cyb3rtr0n-s/CybertronKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CybertronKit/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Banner",
+      "source_files": "CybertronKit/Classes/Banner/**/*"
+    }
+  ]
+}

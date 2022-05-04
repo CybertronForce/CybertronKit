@@ -1,0 +1,37 @@
+PODS:
+  - CybertronKit (0.1.0):
+    - CybertronKit/Banner (= 0.1.0)
+  - CybertronKit/Banner (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Nimble (8.0.9)
+  - Quick (2.2.1)
+
+DEPENDENCIES:
+  - CybertronKit (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+  - Nimble (~> 8.0.7)
+  - Quick (~> 2.2.0)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  CybertronKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CybertronKit: d77681a9adb9cfe4e2011ad2366e8f6cb9b688cc
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+
+PODFILE CHECKSUM: b2e03b678b7da6a33e6d56f1de19ff0c5ad5d3fe
+
+COCOAPODS: 1.11.2

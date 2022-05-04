@@ -21,16 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wayne/CybertronKit'
+  s.homepage         = 'https://github.com/Cyb3rtr0n-s/CybertronKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wayne' => 'wayne_sun@jiliguala.com' }
-  s.source           = { :git => 'https://github.com/wayne/CybertronKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.author           = { 'wayne' => 'waynesun1990@gmail.com' }
+  s.source           = { :git => 'https://github.com/Cyb3rtr0n-s/CybertronKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'CybertronKit/Classes/**/*'
+
+  s.subspec 'Banner' do |banner|
+    banner.source_files = 'CybertronKit/Classes/Banner/**/*'
+  end
   
   # s.resource_bundles = {
   #   'CybertronKit' => ['CybertronKit/Assets/*.png']

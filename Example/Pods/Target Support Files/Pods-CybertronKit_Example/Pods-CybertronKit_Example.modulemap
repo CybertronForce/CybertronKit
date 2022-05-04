@@ -1,0 +1,6 @@
+framework module Pods_CybertronKit_Example {
+  umbrella header "Pods-CybertronKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

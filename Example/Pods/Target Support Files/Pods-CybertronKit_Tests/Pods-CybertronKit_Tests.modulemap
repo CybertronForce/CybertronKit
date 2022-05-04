@@ -1,0 +1,6 @@
+framework module Pods_CybertronKit_Tests {
+  umbrella header "Pods-CybertronKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
