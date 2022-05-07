@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wayne' => 'waynesun1990@gmail.com' }
   s.source           = { :git => 'https://github.com/CybertronForce/CybertronKit.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
   s.default_subspec = 'All'
   
   s.subspec 'All' do |all|
